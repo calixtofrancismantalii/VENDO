@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Vendo online app project"/>
+        <meta name="keywords" content="online base project"/>
+        <meta name="author" content="Calixto Mantal"/>
+        <title>Vendo</title>
+        <link rel="icon" href="#"/>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="white-section">
+            <div class="container">
+                <div class="section-One">
+                    <div>
+                        <h1>ENVI VENDO MACHINE</h1>
+                        <h2>ONLINE</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <form>
+                <div class="personal-info">
+                    <div>
+                        <h3>FILL THE FORM</h3>
+                        <input type="text" placeholder="Full Name" id="fullname">
+                        <select id="selectnetwork">
+                            <option value="--select network--">--select network--</option>
+                            <option value="SMART">SMART</option>
+                            <option value="GLOBE">GLOBE</option>
+                        </select>
+                        <input type="text" placeholder="number" id="mobilenumber">
+                    </div>
+                </div>
+                <div class="account-info">
+                    <div>
+                        <h3>SELECT PAYMENT / BOTTLE OR CASH</h3>
+                        
+                        
+                        
+                        
+                        
+                        <select id="bottleOrCash" onchange="modeofpayment()">
+                            <option value="--select payment--">--select payment--</option>
+                            <option value="bottle">BOTTLE</option>
+                            <option value="cash">CASH</option>
+                        </select>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <div id="bottle">
+                            <div>
+                                <span>8 bottle = 20 pesos Load</span>
+                                <span>16 bottle = 40 pesos Load</span>
+                                <span>32 bottle = 60 pesos Load</span>
+                                <select id="bottleNumber">
+                                    <option value="null">--select number of bottle--</option>
+                                    <option value="20 pesos Load">8</option>
+                                    <option value="40 pesos Load">16</option>
+                                    <option value="60 pesos Load">32</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div id="cash">
+                            <div>
+                                <input type="text" placeholder="Enter amount" id="cashAmount">
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <button type="button" onclick="loadIt()">LOAD</button>
+                        
+                        <div id="modal">
+                            <div class="closebtn">
+                                <i class="far fa-window-close" onclick="closeModal()"></i>
+                            </div>
+                            <div class="output">
+                                <div>
+                                    <span id="a">Name</span>
+                                    <span id="b">Network</span>
+                                    <span id="c">Number</span>
+                                    <span id="d">Mode of Payment</span>
+                                    <span id="e">Number of Bottles</span>
+                                    <span id="f">Cash Amount</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    background-color: #f9b234;
+}
+
+.white-section{
+    background-color: white;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.section-One{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.section-One > div{
+    text-align: center;
+
+}
+.section-One h1{
+    text-transform: capitalize;
+}
+
+
+form  .personal-info{
+    text-align: center;
+    background-color: #00a09a;
+    padding: 50px;
+}
+form  .personal-info > div{
+    display: flex;
+    flex-direction: column;
+}
+form  .personal-info > div h3{
+    padding: 20px; 
+}
+form .personal-info input{
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color: white;
+}
+
+
+
+
+form select{
+    color: gray;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+form  .account-info{
+    text-align: center;
+    background-color: #06514c;
+    padding: 50px;
+}
+form .account-info h3{
+    color: #00a19b;
+}
+form  .account-info > div{
+    display: flex;
+    flex-direction: column;
+}
+form  .account-info > div h3{
+    padding: 20px; 
+}
+form .account-info input{
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color: white;
+}
+
+
+
+form .account-info #bottle{
+    margin: 10px 0px;
+    background-color: #00a19b;
+    padding: 20px 0px;
+    color: white;
+    display: none;
+}
+form .account-info #bottle span{
+    display: block;
+    padding: 10px 0px;
+}
+form .account-info #bottle > div select{
+    width: 50%;
+    background-color: white;
+}
+
+
+form .account-info #cash{
+    display: none;
+    margin: 10px 0px;
+    background-color: #00a19b;
+    padding: 20px 0px;
+    color: white;
+    
+}
+
+
+
+form .account-info button{
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    width: 30%;
+    background-color: #7fcfce;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+#modal{
+    background-color: hsla(14, 82%, 0%, 0.77);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    display: none;
+    color: white;
+}
+#modal .closebtn{
+    font-size: 20px;
+    text-align: right;
+    padding: 20px;
+}
+#modal .closebtn i{
+    cursor: pointer;
+}
+#modal .output{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#modal .output > div span{
+    display: block;
+}
+
+
+
+
+
