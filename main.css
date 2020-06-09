@@ -19,19 +19,19 @@ html{
 
 
 .section-One{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
+    height: 200px;
+    background-image: url(images/headerLogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
-.section-One > div{
-    text-align: center;
 
-}
-.section-One h1{
-    text-transform: capitalize;
-}
+
+
+
+
+
+
 
 
 form  .personal-info{
@@ -170,6 +170,14 @@ form .account-info button{
 }
 
 
+footer{
+    background-color: white;
+    height: 200px;
+    background-image: url(images/footerLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 
 
 
